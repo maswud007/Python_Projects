@@ -1,0 +1,15 @@
+from instabot import Bot
+bot = Bot()
+bot.login(username="  ", password="   ")
+
+#uploading photo
+bot.upload_photo("name.extension", caption="bla bla bla")
+
+#following someone
+bot.follow("username")
+
+#sending message
+bot.send_message("message",['one_account','another_account'])
+
+#unfollowing everyone
+bot.unfollow_everyone()
